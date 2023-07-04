@@ -1,0 +1,19 @@
+{
+    "name": "mihailaionut/router",
+    "description": "PHP simple routing",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ion\\Router\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ionut Mihaila",
+            "email": "ionut.mihaila@itworks.ro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
