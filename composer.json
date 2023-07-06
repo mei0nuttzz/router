@@ -1,11 +1,11 @@
 {
-    "name": "ionrouter/router",
+    "name": "phprouter/phprouter",
     "description": "PHP simple routing",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ionrouter\\Router\\": "src/"
+            "PHPRouter\\PHPRouter\\": "src/"
         }
     },
     "authors": [
