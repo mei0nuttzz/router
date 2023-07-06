@@ -1,4 +1,5 @@
 <?php
+
 /**
  * PHPRouter class.
  * PHP Version 7.4.
@@ -9,6 +10,7 @@
  */
 
 namespace PHPRouter\PHPRouter;
+
 class Router
 {
 
@@ -176,5 +178,10 @@ class Router
 				return true;
 			}
 		}
+	}
+
+	public static function isFound()
+	{
+		return self::$founded;
 	}
 }
