@@ -1,4 +1,13 @@
 <?php
+/**
+ * PHPRouter class.
+ * PHP Version 7.4.
+ *
+ * @see       https://github.com/mei0nuttzz/router/ The PHP GitHub project
+ *
+ * @author    Mihaila Ionut
+ */
+
 namespace PHPRouter\PHPRouter;
 class Router
 {
