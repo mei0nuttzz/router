@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "IonRouter\\Router\\": "src/"
+            "ionrouter\\Router\\": "src/"
         }
     },
     "authors": [
