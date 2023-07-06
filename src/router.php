@@ -1,5 +1,5 @@
 <?php
-namespace IonuRouter\Router;
+namespace IonRouter\Router;
 class Router
 {
 
