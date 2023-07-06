@@ -13,5 +13,8 @@
             "name": "Ionut Mihaila",
             "email": "ionut.mihaila@itworks.ro"
         }
-    ]
+    ],
+      "require": {
+        "php": ">=7.4"
+    }
 }
