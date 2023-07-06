@@ -177,7 +177,6 @@ class Router
 			}
 		}
 	}
-
 	public static function isFound()
 	{
 		return self::$founded;
