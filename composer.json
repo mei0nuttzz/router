@@ -13,7 +13,5 @@
             "name": "Ionut Mihaila",
             "email": "ionut.mihaila@itworks.ro"
         }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+    ]
 }
