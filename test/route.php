@@ -1,11 +1,8 @@
 <?php
-//$route = new \Bramus\Router\Router();
-
 $route = new \PHPRouter\PHPRouter\Router();
 
-
 $route->get('/', function () {
-    echo 'Pagina acasa';
+    echo 'Home page';
 });
 
 $route->go('get', '/2/{id:^\d*$}', function ($id) {
@@ -17,5 +14,5 @@ $route->post('/1/{id:^\d*$}', function ($id) {
 });
 
 if (!\PHPRouter\PHPRouter\Router::$founded) {
-    echo 'Pagina nu a fost gasita';
+    echo '404 Page not found';
 }
